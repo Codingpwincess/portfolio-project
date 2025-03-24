@@ -22,6 +22,12 @@ h2{
     font-family: var(--primary-font);
     color: #ffff;
 }
+h4{
+    font-family: var(--secondary-font);
+    line-height: 1.5;
+    color: #ffff;
+    font-size: 45px;
+}
 p{
     font-size: 23px;
     font-family: var(--secondary-font);
@@ -74,7 +80,7 @@ footer .social-links a{
 margin: 0 20px;
 background-color: #ffff;
 color: rgba(116, 42, 103, 0.75);
-padding: 10px 16px ;
+padding: 10px 16px;
 font-size: 18px;
 border-radius: 50%;
 }
@@ -82,9 +88,9 @@ footer .social-links a:hover{
     border-style: solid;
     border-width: 1px;
     border-color: #ffff;
-    background: rgba(116, 42, 103, 0.75);
+    background: rgba(207, 152, 197, 0.75);
     color: #ffff;
-    transition: all ease-in-out 155ms;
+    transition: all ease-in-out 0.75ms;
 }
 .nav-btn{
     color: #ffff;
