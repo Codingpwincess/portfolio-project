@@ -46,6 +46,10 @@ footer .email-link{
 footer .email-link:hover{
     font-family: var(--primary-font);
 }
+footer .contact-box{
+    background: rgba(207, 152, 197, 0.75);
+    padding: 30px 120px;
+}
 
 .acc-btn{
     color: rgba(116, 42, 103, 0.75);
