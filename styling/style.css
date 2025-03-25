@@ -52,6 +52,34 @@ footer .contact-box{
     padding: 30px 120px;
     border-radius: 18px;
 }
+.quali{
+    text-align: center;
+}
+.abt-desc{
+    background: rgba(207, 152, 197, 0.75);
+    padding: 30px 120px;
+    border-radius: 18px;
+    text-align: center;
+}
+.kitty{
+    display: flex;
+    justify-content: center;
+    margin-left: 20px;
+    margin-right: 20px ;
+    max-width: 700px;
+    padding: 6px;
+    background: rgba(207, 152, 197, 0.75);
+    border-radius: 18px;
+  
+}
+@media(max-width:800px){
+    .kitty{
+        display: flex;
+        justify-content: center;
+        max-width: 300px;
+        max-height: 300px;
+    }
+}
 
 .acc-btn{
     color: rgba(116, 42, 103, 0.75);
