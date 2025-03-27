@@ -47,13 +47,53 @@ footer .email-link{
 footer .email-link:hover{
     font-family: var(--primary-font);
 }
-footer .contact-box{
+.contact-box{
     background: rgba(207, 152, 197, 0.75);
     padding: 30px 120px;
     border-radius: 18px;
 }
+.contact-pg{
+    background: rgba(207, 152, 197, 0.75);
+    padding: 30px 120px;
+    border-radius: 18px;
+}
+.contact-pg p{
+    font-size: 30px;
+    font-weight: bold;
+}
+.contact-pg a{
+ font-size: 25px;
+}
 .quali{
     text-align: center;
+    font-family: var(--secondary-font);
+}
+.quali h2{
+    background: rgba(255, 255, 255, 0.75);
+    padding: 30px 120px;
+    border-radius: 18px;
+    color: rgba(116, 42, 103, 0.75);
+}
+@media(max-width:800px){
+    .quali h2{
+        font-size: 25px;
+        padding: 20px;
+}
+}
+.content h4{
+    font-weight: bold;
+    background: rgba(207, 152, 197, 0.75);
+    padding: 20px;
+    border-radius: 30px;
+}
+@media(max-width:800px){
+    .content h4{
+        font-weight: bold;
+        background: rgba(207, 152, 197, 0.75);
+        padding: 20px;
+        border-radius: 30px;
+        font-size: 25px;
+    }
 }
 .abt-desc{
     background: rgba(207, 152, 197, 0.75);
